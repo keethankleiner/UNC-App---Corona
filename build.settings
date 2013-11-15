@@ -1,0 +1,36 @@
+settings = 
+{
+	
+	iphone = 
+	{
+		plist = 
+		{
+			UIAppFonts = 
+			{
+				"fonts/mailrays.ttf"				
+			},
+			
+			CFBundleIconFile = "Icon.png",
+
+   			CFBundleIconFiles = {
+             	"Icon.png", 
+                "Icon@2x",
+                "Icon-Small.png",
+                "Icon-Small@2x"
+            },
+             --CFBundleIdentifier = "com.deliciousdust.superbowl", 
+ 
+
+		},
+	},
+	
+	
+    android =
+    {
+        usesPermissions =
+        {
+            "android.permission.INTERNET",
+        },
+    },
+
+}
